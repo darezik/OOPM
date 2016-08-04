@@ -1,3 +1,8 @@
+/* 29 July 2016
+ * Author : Darezik Damkevala
+ * OOPM
+ * Semester 3 - B. Eng. (Comp)
+ */
 import java.io.*;
 
 class Quadratic
