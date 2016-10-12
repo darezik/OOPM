@@ -48,23 +48,14 @@ class Test extends Student
 	}
 }
 
-interface Sports
-{
-	int sportsMarks = 10;
-	void displaySportsMarks();
-}
 
-class Result extends Test implements Sports
+class Result extends Test 
 {
 	int data;
 	Result(Test t)
 	{
 		super(new Student(t.Name, t.RollNo),t.marks1,t.marks2);
 		data = marks1+marks2;
-	}
-	public void displaySportsMarks()
-	{
-		System.out.println("Sports marks : " + sportsMarks);
 	}
 	void display()
 	{

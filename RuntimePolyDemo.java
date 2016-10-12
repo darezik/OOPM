@@ -50,6 +50,12 @@ class Test extends Student
 	}
 }
 
+interface Sports
+    {
+        int sportsMarks = 10;
+        void displaySportsMarks();
+    }
+
 class Result extends Test implements Sports
 {
 	int data;
